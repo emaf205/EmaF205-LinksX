@@ -1,0 +1,25 @@
+EMAF205 Links
+
+EMAF205 Links is a minimal link page system made for fast publishing.
+
+It is built around three files:
+
+index.php
+page.txt
+style.txt
+
+index.php contains the structure, parser, rendering logic and security checks.
+
+page.txt contains only content: title, description, buttons and footer.
+
+style.txt contains only optional style settings: background color, text color, font choice and button colors.
+
+The project does not use a database, an admin panel, a build step, JavaScript frameworks or external dependencies.
+
+The default visual language is intentionally minimal:
+square buttons, uppercase button labels, no bold text, compact width and mobile-first spacing.
+
+It is designed for personal link pages, project link pages, workshop pages, portfolio entry pages, temporary campaign pages and simple public resource lists.
+
+Created by EmaF205 in Milan.
+Contact: emagumroad@gmail.com

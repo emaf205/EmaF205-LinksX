@@ -1,0 +1,60 @@
+# ==================================================
+# EMAF205 Links — style.txt
+# ==================================================
+# STYLE ONLY.
+#
+# Optional fields.
+# Leave empty to use the default minimal style.
+#
+# Default:
+# - white background
+# - black text
+# - serif font
+# - transparent buttons
+# - black button text
+# - black button border
+# - square buttons
+# - uppercase button text
+# - no bold text
+# ==================================================
+
+
+# ==================================================
+# PAGE COLORS
+# ==================================================
+# HEX colors only.
+# Examples:
+# #ffffff
+# #000000
+# #f5efe4
+# ==================================================
+
+BACKGROUND_COLOR:
+
+TEXT_COLOR:
+
+
+# ==================================================
+# FONT
+# ==================================================
+# Options:
+# serif
+# sans
+#
+# Leave empty for serif.
+# ==================================================
+
+FONT:
+
+
+# ==================================================
+# BUTTON COLORS
+# ==================================================
+# Leave empty to use the page text color.
+# ==================================================
+
+BUTTON_BACKGROUND:
+
+BUTTON_TEXT_COLOR:
+
+BUTTON_BORDER_COLOR:

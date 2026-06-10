@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Links — Minimal</title>
+<meta name="description" content="A minimal page for selected links.">
+<style>
+:root{
+  --bg:#ffffff;
+  --fg:#111111;
+  --muted:color-mix(in srgb, var(--fg) 58%, transparent);
+  --button-bg:transparent;
+  --button-text:#111111;
+  --button-border:#111111;
+}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Georgia, 'Times New Roman', serif;font-weight:400;display:flex;justify-content:center;padding:26px 16px}
+.page{width:min(100%,390px);margin:0 auto;text-align:center}
+h1{margin:0;color:var(--fg);font-size:clamp(28px,8vw,34px);line-height:1.08;letter-spacing:-0.02em;font-weight:400}
+.description{margin:10px auto 0;max-width:340px;color:var(--muted);font-size:15px;line-height:1.42;font-weight:400}
+.links{display:grid;gap:10px;margin-top:28px}
+.button{width:100%;min-height:54px;padding:13px 18px;border:1px solid var(--button-border);border-radius:0;background:var(--button-bg);color:var(--button-text);display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-size:13px;line-height:1.15;font-weight:400}
+.button:hover{background:var(--fg);color:var(--bg)}
+footer{margin-top:26px;color:var(--muted);font-size:13px;line-height:1.4;font-weight:400}
+@media(min-height:760px){body{padding-top:46px}}
+@media(max-width:360px){body{padding:22px 12px}.button{min-height:52px;font-size:12px}}
+</style>
+</head>
+<body>
+<main class="page">
+  <h1>Links</h1>
+  <p class="description">A minimal page for selected links.</p>
+  <nav class="links" aria-label="Links">
+    <a class="button" href="https://emaf205.com" target="_blank" rel="noopener">Website</a><a class="button" href="https://emaf205.com/tools/" target="_blank" rel="noopener">Tools Archive</a><a class="button" href="https://linktr.ee/emaf205" target="_blank" rel="noopener">Linktree</a><a class="button" href="mailto:emagumroad@gmail.com" target="_self">Contact</a>
+  </nav>
+  <footer>Made with EMAF205 Links</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+# ==================================================
+# EMAF205 Links — page.txt
+# ==================================================
+# CONTENT ONLY.
+#
+# Edit this file to change:
+# - title
+# - description
+# - buttons
+# - footer
+#
+# Do not put style settings here.
+# Style is controlled by style.txt.
+# ==================================================
+
+
+# ==================================================
+# REQUIRED FIELDS
+# ==================================================
+
+SITE_TITLE: Links
+
+SITE_DESCRIPTION: A minimal page for selected links.
+
+
+# ==================================================
+# BUTTONS
+# ==================================================
+# Duplicate one ITEM block for each button.
+#
+# ITEM: internal-name
+# TITLE: button text
+# URL: destination
+# TARGET: _blank or _self
+#
+# _blank = open in new tab
+# _self  = open in same tab
+# ==================================================
+
+ITEM: website
+TITLE: Website
+URL: https://emaf205.com
+TARGET: _blank
+
+ITEM: tools
+TITLE: Tools Archive
+URL: https://emaf205.com/tools/
+TARGET: _blank
+
+ITEM: linktree
+TITLE: Linktree
+URL: https://linktr.ee/emaf205
+TARGET: _blank
+
+ITEM: contact
+TITLE: Contact
+URL: mailto:emagumroad@gmail.com
+TARGET: _self
+
+
+# ==================================================
+# OPTIONAL FOOTER
+# ==================================================
+# Leave empty to hide footer.
+# ==================================================
+
+FOOTER_TEXT: Made with EMAF205 Links
