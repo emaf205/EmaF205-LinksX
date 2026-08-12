@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">EMAF205 Links — minimal link pages without a database</title>
+  <desc id="desc">Editorial product graphic showing three link page variants and the three-file workflow: page.txt, style.txt, index.php.</desc>
+  <rect width="1600" height="1000" fill="#f4f0e6"/>
+  <rect x="0" y="0" width="1600" height="22" fill="#f1df00"/>
+
+  <!-- header -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="92" y="150" font-size="42" font-weight="700" fill="#111">EMAF205</text>
+    <text x="92" y="265" font-size="130" font-weight="900" letter-spacing="-7" fill="#111">LINKS</text>
+    <rect x="92" y="300" width="170" height="12" fill="#f1df00"/>
+    <text x="92" y="365" font-size="34" fill="#222">Minimal link pages. No database.</text>
+    <text x="92" y="412" font-size="25" fill="#555">Edit two text files. Upload three files. Done.</text>
+  </g>
+
+  <!-- stat chips -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">
+    <rect x="92" y="455" width="190" height="58" rx="29" fill="#111"/>
+    <text x="187" y="492" text-anchor="middle" fill="#fff">3 FILES</text>
+    <rect x="298" y="455" width="220" height="58" rx="29" fill="#f1df00"/>
+    <text x="408" y="492" text-anchor="middle" fill="#111">0 DATABASE</text>
+    <rect x="534" y="455" width="210" height="58" rx="29" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="639" y="492" text-anchor="middle" fill="#111">NO BUILD</text>
+  </g>
+
+  <!-- cards -->
+  <g transform="translate(825 105)">
+    <!-- minimal -->
+    <g transform="translate(0 0)">
+      <rect width="220" height="430" rx="28" fill="#fff" stroke="#111" stroke-width="4"/>
+      <circle cx="110" cy="82" r="24" fill="#111"/>
+      <text x="110" y="136" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#111">YOUR LINKS</text>
+      <text x="110" y="163" text-anchor="middle" font-family="Arial" font-size="12" fill="#777">selected places</text>
+      <g fill="none" stroke="#111" stroke-width="2">
+        <rect x="34" y="205" width="152" height="42"/>
+        <rect x="34" y="261" width="152" height="42"/>
+        <rect x="34" y="317" width="152" height="42"/>
+      </g>
+      <g font-family="Arial" font-size="12" fill="#111" text-anchor="middle">
+        <text x="110" y="231">WEBSITE</text><text x="110" y="287">PROJECTS</text><text x="110" y="343">CONTACT</text>
+      </g>
+      <text x="110" y="400" text-anchor="middle" font-family="Arial" font-size="11" fill="#888">MINIMAL</text>
+    </g>
+
+    <!-- dark -->
+    <g transform="translate(245 35)">
+      <rect width="220" height="430" rx="28" fill="#111" stroke="#111" stroke-width="4"/>
+      <circle cx="110" cy="82" r="24" fill="#f1df00"/>
+      <text x="110" y="136" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#fff">YOUR LINKS</text>
+      <text x="110" y="163" text-anchor="middle" font-family="Arial" font-size="12" fill="#aaa">selected places</text>
+      <g fill="none" stroke="#f1df00" stroke-width="2">
+        <rect x="34" y="205" width="152" height="42"/>
+        <rect x="34" y="261" width="152" height="42"/>
+        <rect x="34" y="317" width="152" height="42"/>
+      </g>
+      <g font-family="Arial" font-size="12" fill="#fff" text-anchor="middle">
+        <text x="110" y="231">WEBSITE</text><text x="110" y="287">PROJECTS</text><text x="110" y="343">CONTACT</text>
+      </g>
+      <text x="110" y="400" text-anchor="middle" font-family="Arial" font-size="11" fill="#aaa">DARK</text>
+    </g>
+
+    <!-- soft -->
+    <g transform="translate(490 0)">
+      <rect width="220" height="430" rx="28" fill="#e8dfd1" stroke="#111" stroke-width="4"/>
+      <circle cx="110" cy="82" r="24" fill="#7f6f61"/>
+      <text x="110" y="136" text-anchor="middle" font-family="Georgia" font-size="18" fill="#2c2927">Your Links</text>
+      <text x="110" y="163" text-anchor="middle" font-family="Georgia" font-size="12" fill="#6b625b">selected places</text>
+      <g fill="#f7f3ec" stroke="#7f6f61" stroke-width="2">
+        <rect x="34" y="205" width="152" height="42"/>
+        <rect x="34" y="261" width="152" height="42"/>
+        <rect x="34" y="317" width="152" height="42"/>
+      </g>
+      <g font-family="Georgia" font-size="12" fill="#2c2927" text-anchor="middle">
+        <text x="110" y="231">WEBSITE</text><text x="110" y="287">PROJECTS</text><text x="110" y="343">CONTACT</text>
+      </g>
+      <text x="110" y="400" text-anchor="middle" font-family="Arial" font-size="11" fill="#6b625b">SOFT</text>
+    </g>
+  </g>
+
+  <!-- workflow -->
+  <g transform="translate(92 635)" font-family="Arial, Helvetica, sans-serif">
+    <text x="0" y="0" font-size="23" font-weight="700" fill="#111">HOW IT WORKS</text>
+    <line x1="0" y1="24" x2="1416" y2="24" stroke="#111" stroke-width="3"/>
+
+    <g transform="translate(0 70)">
+      <rect width="350" height="180" fill="#111"/>
+      <text x="28" y="45" font-size="18" font-weight="700" fill="#f1df00">01 / CONTENT</text>
+      <text x="28" y="92" font-family="Courier New, monospace" font-size="30" font-weight="700" fill="#fff">page.txt</text>
+      <text x="28" y="132" font-size="18" fill="#bbb">title · description · links</text>
+    </g>
+
+    <g transform="translate(390 70)">
+      <rect width="350" height="180" fill="#f1df00"/>
+      <text x="28" y="45" font-size="18" font-weight="700" fill="#111">02 / STYLE</text>
+      <text x="28" y="92" font-family="Courier New, monospace" font-size="30" font-weight="700" fill="#111">style.txt</text>
+      <text x="28" y="132" font-size="18" fill="#3b3900">colors · font · buttons</text>
+    </g>
+
+    <g transform="translate(780 70)">
+      <rect width="350" height="180" fill="#fff" stroke="#111" stroke-width="3"/>
+      <text x="28" y="45" font-size="18" font-weight="700" fill="#111">03 / ENGINE</text>
+      <text x="28" y="92" font-family="Courier New, monospace" font-size="30" font-weight="700" fill="#111">index.php</text>
+      <text x="28" y="132" font-size="18" fill="#555">parse · render · protect</text>
+    </g>
+
+    <g transform="translate(1170 70)">
+      <rect width="246" height="180" fill="#ded9cf"/>
+      <text x="24" y="45" font-size="18" font-weight="700" fill="#111">RESULT</text>
+      <path d="M24 90 H175" stroke="#111" stroke-width="5"/>
+      <path d="M160 72 L188 90 L160 108" fill="none" stroke="#111" stroke-width="5"/>
+      <text x="24" y="142" font-size="21" font-weight="700" fill="#111">YOUR LINK PAGE</text>
+    </g>
+  </g>
+
+  <!-- footer -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="92" y="960" font-size="18" fill="#555">PHP · mobile-first · local files · no external dependencies</text>
+    <text x="1508" y="960" text-anchor="end" font-size="18" font-weight="700" fill="#111">Made by EmaF205</text>
+  </g>
+</svg>
